@@ -12,6 +12,6 @@ case $1 in
    stop)
      kill `cat /var/run/stream.pid` ;;
    *)
-     echo "usage: start-ffmpeg {start|stop}" ;;
+     echo "usage: stream.sh {start|stop}" ;;
 esac
 exit 0
